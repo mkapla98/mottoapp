@@ -1,0 +1,44 @@
+{
+  "mottos":[
+     {
+       "id": "1",
+       "motto": "Motto1"
+     },
+     {
+        "id": "2",
+        "motto": "Motto2"
+      },
+      {
+        "id": "3",
+        "motto": "Motto3"
+      },
+      {
+        "id": "4",
+        "motto": "Motto4"
+      },
+      {
+        "id": "5",
+        "motto": "Motto5"
+      },
+      {
+        "id": "6",
+        "motto": "Motto6"
+      },
+      {
+        "id": "7",
+        "motto": "Motto7"
+      },
+      {
+        "id": "8",
+        "motto": "Motto8"
+      },
+      {
+        "id": "9",
+        "motto": "Motto9"
+      },
+      {
+        "id": "10",
+        "motto": "Motto10"
+      }
+    ]
+    }

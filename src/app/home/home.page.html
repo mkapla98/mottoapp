@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Motto app 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)" [disabled]="false">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+  <div *ngFor="let item of items">
+    <div style="text-align:center; padding:30px; font-size:25px;font-style: italic;" *ngIf="item.id == specId">
+      "{{item.motto}}"
+    </div>
+  </div>
+  <p style="text-align: center;">Swipe down to reload content</p>
+</ion-content>
